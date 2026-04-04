@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tea House - Tea Shop Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+<link href="css/header.css" rel="stylesheet">
+
+</head>
+
+<body>
+     <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div> 
+     <!-- Spinner End -->
+
+    
+    <!-- Navbar Start -->
+    <?php include('header.php');?>
+
+    <!-- Carousel End -->
+
+<!-- Carousel Start -->
+<div class="container-fluid px-0 mb-5">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/mri2.webp" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 text-center">
+                                    <p class="fs-4 text-white animated zoomIn">Welcome to <strong class="text-dark">Phantom healthcare</strong></p>
+                                    <h1 class="display-1 text-dark mb-4 animated zoomIn">Refurbished MRI Machine</h1>
+                                    <a href="" class="btn btn-light rounded-pill py-3 px-5 animated zoomIn">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="img/mumbai.webp" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-7 text-center">
+                                    <p class="fs-4 text-white animated zoomIn">Welcome to <strong class="text-dark">phantom healthcare</strong></p>
+                                    <h1 class="display-1 text-dark mb-4 animated zoomIn"> Refurbished CT Machine</h1>
+                                    <a href="" class="btn btn-light rounded-pill py-3 px-5 animated zoomIn">Explore More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <div class="row g-3">
+                        <div class="col-6 text-end">
+                            <img class="img-fluid bg-white w-100 mb-3 wow fadeIn" data-wow-delay="0.1s" src="img/mumbai.webp" alt="">
+                            <img class="img-fluid bg-white w-50 wow fadeIn" data-wow-delay="0.2s" src="img/about-3.jpg" alt="">
+                        </div>
+                        <div class="col-6">
+                            <img class="img-fluid bg-white w-50 mb-3 wow fadeIn" data-wow-delay="0.3s" src="img/mumbai.webp" alt="">
+                            <img class="img-fluid bg-white w-100 wow fadeIn" data-wow-delay="0.4s" src="img/mumbai.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="section-title">
+                        <p class="fs-5 fw-medium fst-italic text-primary">About Us</p>
+                        <h1 class="display-6">The success history of TEA House in 25 years</h1>
+                    </div>
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-4">
+                            <img class="img-fluid bg-white w-100" src="img/mumbai.webp" alt="">
+                        </div>
+                        <div class="col-sm-8">
+                            <h5>Our tea is one of the most popular drinks in the world</h5>
+                            <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit</p>
+                        </div>
+                    </div>
+                    <div class="border-top mb-4"></div>
+                    <div class="row g-3">
+                        <div class="col-sm-8">
+                            <h5>Daily use of a cup of tea is good for your health</h5>
+                            <p class="mb-0">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img class="img-fluid bg-white w-100" src="img/mumbai.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <!-- About End -->
+
+
+
+
+<!-- <<<<<<< test>>>> -->
+<div class="container">
+  <div class="row g-4">
+    <!-- Card 1 -->
+    <div class="col-md-4">
+      <div class="card border-0 shadow-sm h-100">
+        <img src="img/images.jpg" class="card-img-top" alt="MRI Machine">
+        <div class="card-body text-center">
+          <h5 class="card-title fw-bold">MRI Scanner</h5>
+          <p class="card-text text-muted">High-quality refurbished MRI systems for accurate and reliable imaging results.</p>
+          <a href="#" class="btn btn-outline-primary btn-sm">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-4">
+      <div class="card border-0 shadow-sm h-100">
+        <img src="img/images.jpg" class="card-img-top" alt="CT Machine">
+        <div class="card-body text-center">
+          <h5 class="card-title fw-bold">CT Scanner</h5>
+          <p class="card-text text-muted">Refurbished CT systems designed for speed, precision, and patient comfort.</p>
+          <a href="#" class="btn btn-outline-primary btn-sm">Learn More</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-4">
+      <div class="card border-0 shadow-sm h-100">
+        <img src="img/images.jpg" class="card-img-top" alt="PET-CT Machine">
+        <div class="card-body text-center">
+          <h5 class="card-title fw-bold">PET-CT Scanner</h5>
+          <p class="card-text text-muted">Advanced PET-CT technology for accurate diagnosis and high efficiency.</p>
+          <a href="#" class="btn btn-outline-primary btn-sm">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- <<<<<<<<<<<<<<<<<< tet>>>>>>>>>>>>>>>>>>> -->
+
+<!-- <<<<<<<<<< again test>>>>>>>>>> -->
+
+
+<div class="container-fluid  sabaas p-5">
+    <div class="container">
+        <h2 class=" mb-5 vikso text-center"> Our Services Life</h2>
+    <div class="row">
+<div class="col-lg-4 mt-2  mb-2 text-center kiran ">
+    <div class="subjectl">
+<img class="img-fluid " src="img/operation.jpg">
+</div>
+<h4 class=""> Phntom Healthcare </h4>
+<P class="" > Discover premium refurbished Siemens MRI systems at Phantom Healthcare. Contact us today for more details! </P>
+<a href="./" class="newButton "> See More </a>
+</div>
+
+<div class="col-lg-4 mt-2 mb-2 text-center kiran">
+<img class="img-fluid per-tect" src="img/operation.jpg">
+<h4> Phntom Healthcare </h4>
+<P> Discover premium refurbished Siemens MRI systems at Phantom Healthcare. Contact us today for more details! </P>
+<a href="./" class="newButton "> See More </a>
+</div>
+
+
+
+<div class="col-lg-4 mt-2  mb-2 text-center kiran">
+<img class="img-fluid" src="img/operation.jpg">
+<h4> Phntom Healthcare </h4>
+<P> Discover premium refurbished Siemens MRI systems at Phantom Healthcare. Contact us today for more details! </P>
+<a href="./" class="newButton"> See More </a>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- <<<<<<<<< again test>>>>>>>>>> -->
+
+
+
+
+
+
+    <!-- Products Start -->
+    <div class="container-fluid product py-5 my-5">
+        <div class="container py-5">
+            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-medium fst-italic text-primary">Our Products</p>
+                <h1 class="display-6">Refurbished MRI Machine</h1>
+            </div>
+            <div class="owl-carousel product-carousel wow fadeInUp" data-wow-delay="0.5s">
+                <a href="" class="d-block product-item rounded">
+                    <img src="img/mri2.webp" alt="">
+                    <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
+                        <h4 class="text-primary">Green Tea</h4>
+                        <span class="text-body">Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum</span>
+                    </div>
+                </a>
+                <a href="" class="d-block product-item rounded">
+                    <img src="img/mri2.webp" alt="">
+                    <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
+                        <h4 class="text-primary">Black Tea</h4>
+                        <span class="text-body">Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum</span>
+                    </div>
+                </a>
+                <a href="" class="d-block product-item rounded">
+                    <img src="img/mri2.webp" alt="">
+                    <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
+                        <h4 class="text-primary">Spiced Tea</h4>
+                        <span class="text-body">Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum</span>
+                    </div>
+                </a>
+                <a href="" class="d-block product-item rounded">
+                    <img src="img/mri2.webp" alt="">
+                    <div class="bg-white shadow-sm text-center p-4 position-relative mt-n5 mx-4">
+                        <h4 class="text-primary">Organic Tea</h4>
+                        <span class="text-body">Diam dolor diam ipsum sit diam amet diam et eos. Clita erat ipsum</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Products End -->
+
+
+    <!-- Article Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <img class="img-fluid" src="img/article.jpg" alt="">
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="section-title">
+                        <p class="fs-5 fw-medium fst-italic text-primary">Featured Acticle</p>
+                        <h1 class="display-6"> Refurbished MRI Machine</h1>
+                    </div>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <p class="mb-4">Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna. Tempor erat elitr rebum at clita.</p>
+                    <a href="" class="btn btn-primary rounded-pill py-3 px-5">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Article End -->
+
+
+    <!-- Video Start -->
+    <div class="container-fluid video my-5">
+        <div class="container">
+            <div class="row g-0">
+                <div class="col-lg-6  order-sm-1   py-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="py-5">
+                        <h1 class="display-6 mb-4"> Best Refurbished <span class="text-white">MRI </span> and <span class="text-white">CT Machine</span></h1>
+                        <h5 class="fw-normal lh-base fst-italic text-white mb-5">Discover excellence in medical imaging with our premium selection of refurbished Siemens MRI Equipment</h5>
+                        <div class="row g-2 mb-5">
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
+                                        <i class="fa fa-check"></i>
+                                    </div>
+                                    <span class="text-dark">Great tea assortment</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
+                                        <i class="fa fa-check"></i>
+                                    </div>
+                                    <span class="text-dark">Spices & additives</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
+                                        <i class="fa fa-check"></i>
+                                    </div>
+                                    <span class="text-dark">Unique accessories</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="d-flex align-items-center">
+                                    <div class="flex-shrink-0 btn-lg-square bg-white text-primary rounded-circle me-3">
+                                        <i class="fa fa-check"></i>
+                                    </div>
+                                    <span class="text-dark">Good for health & beauty</span>
+                                </div>
+                            </div>
+                            </div>
+                        
+                       
+                        
+                        <!-- <div class="row"> -->
+
+                            <div clas="col-sm-6  ">
+                                      
+                 <a class="btn btn-light rounded-pill py-3 px-5" href="">Explore More  </a>  
+                 
+</div>
+</div>
+
+<div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="h-0 d-flex align-items-center justify-content-center position-absolute" style= "margin-top: -70px; margin-left: 250px">
+                        <button type="button" class="btn-play" data-bs-toggle="modal"
+                            data-src="img/video.mp4" data-bs-target="#videoModal">
+                            <div class=" position-absolute" style= "margin-top: -20px; margin-left: 2px">
+                            <span>   </span>
+                        </button>
+
+
+</div>
+</div>
+</div>
+
+<div class="col-lg-6 order-sm-2   px-4 wow fadeIn" data-wow-delay="0.5s">
+    
+                <img class="img-fluid burger center" src="img/cocerned.jpg">
+           
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Refurbished MRI Machine</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+
+
+
+
+<!-- <<<<<<<<<<<<<<<<<<<<< perfect 2 box>>>>>>>>>>>>>> -->
+ <div class="container-fluid subjecing p-5">
+<div class="container ">
+    <div class="row mt-5 ">
+        <div class="col-lg-6">
+            <div class="life-sinzg">
+                
+            <h2 >  Buy MRI Machine <i class="fa fa-address-card"></i>
+  </h2>
+
+<P > 
+Find exceptional value on refurbished 1.5T and 3.0T MRI machines at Phantom Healthcare. With our extensive inventory, we offer competitive prices on leading brands like GE and Siemens. Whether you're upgrading your facility or expanding your capabilities, trust Phantom Healthcare for cost-effective solutions without compromising on quality.
+</P>
+
+</div>
+</div>
+
+<div class="col-lg-6">
+            <div class="life-sinze">
+            <h2> Sell MRI Machine   <i class="fa fa-address-card"></i> </h2>
+<P> 
+Find exceptional value on refurbished 1.5T and 3.0T MRI machines at Phantom Healthcare. With our extensive inventory, we offer competitive prices on leading brands like GE and Siemens. Whether you're upgrading your facility or expanding your capabilities, trust Phantom Healthcare for cost-effective solutions without compromising on quality.
+ </P>
+
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+<!-- <<<<<<<< test>>>>>>>>> -->
+
+
+
+<!-- <<<<<<<<<<<<<<<<<<< restuarant design>>>>>>>>>>>>>>>> -->
+<div class="container-xxl py-5 sinaor">
+<div class="container ">
+    <div class="row ">
+        <div class="col-lg-6  raju ">
+            <div class="row">
+                <div class="col-6">
+                <img class="zero1" src="img/mumbai.webp">
+                <img class="zero2" src="img/mumbai.webp">
+</div>
+
+                <div class="col-6 ">
+
+  <img class="zero3" src="img/mumbai.webp">
+  <img class="zero4" src="img/mumbai.webp">
+</div>
+</div>
+</div>
+
+
+
+
+<div class="col-lg-6 gandu">
+
+<h2 class="sharma"> About Us </h2>
+<h3 class="sharma1"> Welcome to Phantom Healthcare </h3>
+
+<P> Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit. </P>
+
+<P> Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet </P>
+
+
+<div class="row  p-3">
+    <div class="col-6 d-flex  ">
+    <span class="newactive"> 15</span>
+<P class="journey1">  year of <span class="tranjender"> Experience  </span> <P>
+
+    
+</div>
+<div class="col-6 d-flex ">
+<span class="newactive"> 15</span>
+<P class="journey1">  year of <span class="tranjender"> Experience  </span> <P>
+
+</div>
+</div>
+<a href="./" class="dexerwe "> Read More </a>
+
+
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div> 
+<!-- <<<<<<<<<<<<<<<<<<< restuarant design end>>>>>>>>>>>>>>>> -->
+
+
+
+
+
+
+<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< final test>>>>>>>>>>>>>>>>>>>>>>> -->
+
+<div class="container-fluid mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-6 ">
+                <div class="Position relative">
+                <img src="img/special.jpg" class="img-fluid rewnse">
+                <div class="position absolute ">
+                <img src="img/images.jpg" class="img-fluid vineusse">
+
+                </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-7 col-md-6  wow fadeIn" data-wow-delay=".5s" bis_skin_checked="1" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeIn;">
+                        <h5 class="text-primary">About Us</h5>
+                        <h1 class="mb-4">Phantom Healthcare is giving a complete Radiology Solution</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur quis purus ut interdum. Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus. Etiam gravida justo nec erat vestibulum, et malesuada augue laoreet.</p>
+                        <p class="mb-4">Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus.</p>
+                        <a href="" class="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+<!-- <<<<<<<<<<<<<< final test end>>>>>>>>>>>>> -->
+
+
+<div class="container-fluid mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="row g-1">
+                    <div class="col-6 text-end">
+                <img src="img/images.jpg" class="img-fluid w-100 p-1">
+                <img src="img/images.jpg" class="img-fluid w-50 p-1">
+</div>
+
+<div class="col-6">
+                <img src="img/images.jpg" class="img-fluid w-50 p-1 ">
+                <img src="img/images.jpg" class="img-fluid w-100 p-1" >
+</div>
+</div>
+</div>
+
+<div class="col-lg-6">
+    <P> About US </P>
+<h2> The success history of TEA House in 25 years </h2>
+<div class="row">
+<div class="col-4">
+<img src="img/images.jpg" class="img-fluid ">
+</div>
+<div class="col-8">
+<h4> Our MRI is one of the most popular drinks in the world </h4>
+<P> 
+During Breast Cancer Awareness Month, we stand united in our commitment to advancing the cause. We champion research, amplify the voices of advocates, and empower  </P>
+
+</div>
+</div>
+<div class="row">
+<div class="col-8">
+<h4> Our MRI is one of the most popular drinks in the world </h4>
+<P> 
+During Breast Cancer Awareness Month, we stand united in our commitment to advancing the cause. We champion research, amplify the voices of advocates, and empower  </P>
+
+</div>
+<div class="col-4">
+<img src="img/images.jpg" class="img-fluid ">
+
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- <<<<<<<<<<<<<<<<<<<<< check images>>>>>>>>>>>>>>> -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="my-picture">
+                <div class="picture1">
+
+<img src="img/about-1.jpg" class="img-fluid ">
+</div>
+<div class="picture2">
+
+<img src="img/about-2.jpg" class="img-fluid ">
+</div>
+<h6 class="text-center"> Phantom Healthcare </h6>
+</div>
+</div>
+
+
+
+<div class="col-lg-4">
+            <div class="my-picture">
+                <div class="picture1">
+
+<img src="img/about-1.jpg" class="img-fluid ">
+</div>
+<div class="picture2">
+
+<img src="img/about-2.jpg" class="img-fluid ">
+</div>
+<h6 class="text-center"> Phantom Healthcare </h6>
+</div>
+</div>
+
+
+
+<div class="col-lg-4">
+            <div class="my-picture">
+                <div class="picture1">
+
+<img src="img/about-1.jpg" class="img-fluid ">
+</div>
+<div class="picture2">
+
+<img src="img/about-2.jpg" class="img-fluid ">
+</div>
+<h6 class="text-center"> Phantom Healthcare </h6>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 4 image test>>>>>>>>>>>>>>>>>>>>>>>>> -->
+ 
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="row g-3">
+            <div class="col-lg-6">
+                <div class="row g-3">
+                    <div class="col-6 text-end">
+                    <img class="new-section1" src="img/mumbai.webp">
+                    <img class="new-section2" src="img/about-3.jpg">
+
+
+
+                    
+</div>
+
+ <div class="col-6 ">
+<img class="new-section3" src="img/mumbai.webp">
+<img class="new-section4" src="img/about-3.jpg"> 
+
+
+
+
+
+</div>
+</div>
+</div>
+
+<div class="col-lg-6">
+<div class="section-title1">
+    <h4> About US </h4>
+<h1> The success history of TEA House in 25 years </h1>
+</div>
+
+
+<div class="row mt-5">
+<div class="col-4 g-3">
+<img class="new-section5" src="img/product-4.jpg">
+</div>
+<div class="col-8">
+<h5>Our MRI is one of the most popular drinks in the world</h5>
+<p class="">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit</p>
+</div>
+</div>
+
+
+<div class="row g-3">
+<div class="col-8">
+<h5>Our tea is one of the most popular drinks in the world</h5>
+<p class="">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit</p>
+</div>
+<div class="col-4">
+<img class="new-section6" src="img/product-4.jpg">
+
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+
+    </div>
+    </div>  
+
+    <!-- /* <<<<<<<<<<<<<<<< again life>>>>>>>>>> */ -->
+
+     <div class="container-xxl jackor py-5">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-6 ">
+                    <img class="lifestyle1" src="img/about-3.jpg">
+<img class="lifestyle2" src="img/about-3.jpg">        
+<img class="lifestyle3" src="img/about-3.jpg">  
+    
+</div>
+
+<div class="col-lg-6 ">
+
+        <h2 class="rakesh-sharma" > Our MRI is one of the most popular drinks in the world </h5>
+<p class="vdefds mt-3"> 
+Specializing in comprehensive services such as AMC/CMC,spare parts supply, and upgrades for various imaging equipment, we excel in delivering top-notch solutions for installation, de-installation, and maintenance. </P>
+
+
+
+<div class="row">
+
+
+<div class="col-6">
+
+ <P class="radhye "><i class="fa fa-circle p-1" style="font-size: 15px; color:red " > </i>Donec vitae odio quis nisl dapibus malesuada <P>
+</div>
+
+ <div class="col-6">
+ <P class="radhye"><i class="fa fa-circle p-1" style="font-size: 15px; color:red"> </i>Donec vitae odio quis nisl dapibus malesuada <P>
+</div>
+<div class="col-6">
+<P class="radhye"><i class="fa fa-circle p-1" style="font-size: 15px; color:red"> </i>Donec vitae odio quis nisl dapibus malesuada <P>
+</div>
+<div class="col-6">
+<P class="radhye"><i class="fa fa-circle p-1" style="font-size: 15px; color:red"> </i>Donec vitae odio quis nisl dapibus malesuada <P>
+
+</div>
+
+<a href="/" class="verma"> Button </a>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div> 
+
+
+    <!-- /* <<<<<<<<<<<<<<<< again life test >>>>>>>>>> */ -->
+
+
+
+     <div class="we-help-section">
+			<div class="container">
+				<div class="row justify-content-between">
+					<div class="col-lg-7 mb-5 mb-lg-0">
+						<div class="imgs-grid">
+							<div class="grid grid-1"><img src="img/about-3.jpg" alt="Untree.co"></div>
+							<div class="grid grid-2"><img src="img/about-3.jpg" alt="Untree.co"></div>
+							<div class="grid grid-3"><img src="img/about-3.jpg" alt="Untree.co"></div>
+						</div>
+					</div>
+					<div class="col-lg-5 ps-lg-5">
+						<h2 class="section-title mb-4">We Help You Make Modern Interior Design</h2>
+						<p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada</p>
+
+						<ul class="list-unstyled custom-list my-4">
+							<li>Donec vitae odio quis nisl dapibus malesuada</li>
+							<li>Donec vitae odio quis nisl dapibus malesuada</li>
+							<li>Donec vitae odio quis nisl dapibus malesuada</li>
+							<li>Donec vitae odio quis nisl dapibus malesuada</li>
+						</ul>
+						<p><a herf="#" class="btn">Explore</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+        </div>
+		</div> 
+
+<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 4 image test end>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+
+
+    <!-- Store Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-medium fst-italic text-primary">Online Store</p>
+                <h1 class="display-6">Want to stay healthy? Refurbished MRI Machine</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="store-item position-relative text-center">
+                        <img class="img-fluid" src="img/mri2.webp" alt="">
+                        <div class="p-4">
+                            <div class="text-center mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <h4 class="mb-3">Nature close tea</h4>
+                            <p>Aliqu diam amet diam et eos. Clita erat ipsum lorem erat ipsum lorem sit sed</p>
+                            <h4 class="text-primary">$19.00</h4>
+                        </div>
+                        <div class="store-overlay">
+                            <a href="" class="btn btn-primary rounded-pill py-2 px-4 m-2">More Detail <i class="fa fa-arrow-right ms-2"></i></a>
+                            <a href="" class="btn btn-dark rounded-pill py-2 px-4 m-2">Add to Cart <i class="fa fa-cart-plus ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="store-item position-relative text-center">
+                        <img class="img-fluid" src="img/mri2.webp" alt="">
+                        <div class="p-4">
+                            <div class="text-center mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <h4 class="mb-3">Green tea tulsi</h4>
+                            <p>Aliqu diam amet diam et eos. Clita erat ipsum lorem erat ipsum lorem sit sed</p>
+                            <h4 class="text-primary">$19.00</h4>
+                        </div>
+                        <div class="store-overlay">
+                            <a href="" class="btn btn-primary rounded-pill py-2 px-4 m-2">More Detail <i class="fa fa-arrow-right ms-2"></i></a>
+                            <a href="" class="btn btn-dark rounded-pill py-2 px-4 m-2">Add to Cart <i class="fa fa-cart-plus ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="store-item position-relative text-center">
+                        <img class="img-fluid" src="img/mri2.webp" alt="">
+                        <div class="p-4">
+                            <div class="text-center mb-3">
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-primary"></small>
+                            </div>
+                            <h4 class="mb-3">Instant tea premix</h4>
+                            <p>Aliqu diam amet diam et eos. Clita erat ipsum lorem erat ipsum lorem sit sed</p>
+                            <h4 class="text-primary">$19.00</h4>
+                        </div>
+                        <div class="store-overlay">
+                            <a href="" class="btn btn-primary rounded-pill py-2 px-4 m-2">More Detail <i class="fa fa-arrow-right ms-2"></i></a>
+                            <a href="" class="btn btn-dark rounded-pill py-2 px-4 m-2">Add to Cart <i class="fa fa-cart-plus ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <a href="" class="btn btn-primary rounded-pill py-3 px-5">View More Products</a>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- Store End -->
+
+
+    <!-- Testimonial Start -->
+     <div class="container-fluid testimonial py-5 my-5">
+        <div class="container py-5">
+            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-medium fst-italic text-white">Testimonial</p>
+                <h1 class="display-6">What our clients say about our tea</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.5s">
+                <div class="testimonial-item p-4 p-lg-5">
+                    <p class="mb-4">Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-1.jpg" alt="">
+                        <div class="text-start ms-3">
+                            <h5>Client Name</h5>
+                            <span class="text-primary">Profession</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item p-4 p-lg-5">
+                    <p class="mb-4">Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-2.jpg" alt="">
+                        <div class="text-start ms-3">
+                            <h5>Client Name</h5>
+                            <span class="text-primary">Profession</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-item p-4 p-lg-5">
+                    <p class="mb-4">Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p>
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="img-fluid flex-shrink-0" src="img/testimonial-3.jpg" alt="">
+                        <div class="text-start ms-3">
+                            <h5>Client Name</h5>
+                            <span class="text-primary">Profession</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+
+
+<!-- <<<<<<<<<<<<<< three images>>>>>>>> -->
+
+
+
+
+
+<!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< personal test>>>>>>>>>>>>>>>>>>> -->
+ 
+<div class="why-style">
+<div class="container-fluid">
+    <div class="row ">
+    <div class="col-md-6 col-lg-6  ">
+        <div class="first-innovation">
+        <span> INNOVATION</span>
+        <h3> Helping brands to reach to their full potential from more than 6 years!!</h3>
+        <p> Phantom healthcare provides on demand services for all the brands such as high quality code security with technical teams who can be trusted. In this era of high technology uses there comes a whole point in trusting the team leading you to into the IT area for an impeccable successful life and equal InfoTech ensures that the trust in its clients is maintained. We help our clients achieve their business goals. Our Group had started the operations in year 2011 and has become the leading remarketers, refurbishers and re-assemblers of Pre-owned Super Conductive MRIs and CT Scanners in India. Phantom Healthcare strives to provide professional support with quality services that are custom fit to the needs of today’s growing healthcare industry. We aim to develop long-term relationships with our clients and do our best possible to keep Imaging equipment up-to-date and working like new.</p>
+
+    </div>
+   
+</div>
+
+
+    <div class="col-lg-6 col-md-6    ">
+        <div class="row ">
+
+    <div class="col-sm-6  one-thing">
+        <div class="first-innovation-singh">
+    <img class=" whylife" src="img/logo1.jpg">
+    <h5> 15+ Years  Experience
+    </h5>
+   <p> we have 15 year experience and sell best refurbished Machine In India </p>
+</div>
+
+</div>
+
+<div class="col-sm-6 two-thing">
+    <div class="first-innovation-singh">
+        <img class="whylife" src="img/logo1.jpg ">
+    <h5> 24*7 Service &amp; Support</h5>
+   <p> Our team is well experienced to set up refurbished MRI machine </p>
+</div>
+</div>
+
+
+<div class="col-sm-6 three-thing ">
+    <div class="first-innovation-singh">
+        <img class=" whylife" src="img/logo1.jpg">
+    <h5> Skilled Professional
+    </h5>
+   <p> We provide a dedicated work for better coordination and with getting </p>
+</div>
+</div>
+<div class="col-sm-6 four-thing">
+    <div class="first-innovation-singh">
+        <img class=" whylife" src="img/logo1.jpg">
+    <h5> Best Quality AERB Approved&
+    </h5>
+   <p> We are giving 100% satisfied guaranteed result </p>
+</div>
+
+
+
+
+    </div>
+</div>
+
+</div>
+</div>
+</div>
+</div> 
+
+
+
+<!-- <<<<<<<<<< again test>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+
+
+
+
+
+    <!-- Contact Start -->
+
+    <div class="container-xxl contact py-5">
+        <div class="container">
+            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="fs-5 fw-medium fst-italic text-primary">Contact Us</p>
+                <h1 class="display-6">Contact us right now</h1>
+            </div>
+            <div class="row justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-8">
+                    <p class="text-center mb-5">Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo</p>
+                    <div class="row g-5">
+                        <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="btn-square mx-auto mb-3">
+                                <i class="fa fa-envelope fa-2x text-white"></i>
+                            </div>
+                            <p class="mb-2">info@example.com</p>
+                            <p class="mb-0">support@example.com</p>
+                        </div>
+                        <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="btn-square mx-auto mb-3">
+                                <i class="fa fa-phone fa-2x text-white"></i>
+                            </div>
+                            <p class="mb-2">+012 345 67890</p>
+                            <p class="mb-0">+012 345 67890</p>
+                        </div>
+                        <div class="col-md-4 text-center wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="btn-square mx-auto mb-3">
+                                <i class="fa fa-map-marker-alt fa-2x text-white"></i>
+                            </div>
+                            <p class="mb-2">123 Street</p>
+                            <p class="mb-0">New York, USA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- Contact Start -->
+
+
+
+
+<!-- <<<<<<<<<< test again>>>>>>>>>>>> -->
+
+<!-- <<<<<<<<<<<< "four box">>>>>>>>>>>>>>>> -->
+
+ <div class="container-fluid resed pt-2 pb-5">
+    <div class="container">
+
+       <h2 class=" text-center py-3" > our sucess </h2>
+
+
+        <div class="row">
+<div class="col-md-6 mt-5">
+    <h2> Embrace refurbished GE and Siemens MRI Models </h2>
+    <p class=""> Experience the superior quality of the refurbished MRI Machine offered by Phantom Healthcare. As the foremost supplier of refurbished imaging equipment, we provide top-notch solutions at an affordable price. With us, you can expect a seamless turnkey experience without hassle. Trust in our expertise to deliver reliable and efficient imaging solutions that meet your needs with precision and affordability. </P>
+
+    <P> 
+Purchase the refurbished or new VRE red card electronic accessories items from Phantom Healthcare, available in India and worldwide. Our electronic accessories are cost-effective and of superior quality </P>
+<div class="chali">
+<a href="/" class="redbus "> Button </a>
+</div>
+</div>
+
+
+<div class="col-md-6 ">
+    <div class="row">
+
+<div class="col-sm-6">
+    <div class="dianko">
+    <i class="fa fa-address-book"></i> 
+        <h5 > 15+ Years Experience </h5>
+<p> We are giving 100% satisfied guaranteed result </p>
+</div>
+</div>
+
+
+
+
+<div class="col-sm-6">
+<div class="dianko">
+<i class="fa fa-address-book"></i> 
+<h5 > 15+ Years Experience </h5>
+<p> We are giving 100% satisfied guaranteed result </p>
+</div>
+</div>
+</div>
+
+<div class="row ">
+
+<div class="col-sm-6">
+<div class="dianko">
+<i class="fa fa-address-book"></i> 
+<h5 > 15+ Years Experience </h5>
+<p> We are giving 100% satisfied guaranteed result </p>
+</div>
+</div>
+
+
+<div class="col-sm-6">
+<div class="dianko">
+<i class="fa fa-address-book"></i> 
+<h5 > 15+ Years Experience </h5>
+<p> We are giving 100% satisfied guaranteed result </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div> 
+<!-- <<<<<<<<<<<<< two box group>>>>>>>>>>>> -->
+
+ <div class="container-fluid">
+    <div  class="container py-5">
+    <div class="row g-5">
+        <div class="col-sm-6 col-md-12 col-lg-6">
+            <h2 span class="vksars text-center"> Who we are Summer </h2>
+<p> We help organizations achieve their most ambitious goals and move with greater agility </P> 
+
+<P> With our next-generation app platform, teams easily design and deploy flexible and engaging apps that power critical workflows and make valuable data actionable across the enterprise. </P>
+
+
+<div class="row">
+    <div class="col-6">
+   <p>  <i class="fa fa-check"> </i> Aenean eu leo quam ornare curabitur blandit tempus </P>
+   <p>  <i class="fa fa-check"> </i> Aenean eu leo quam ornare curabitur blandit tempus </P>
+</div>
+
+   <div class="col-6">
+   <p>  <i class="fa fa-check"> </i> Aenean eu leo quam ornare curabitur blandit tempus </P>
+   <p>  <i class="fa fa-check"> </i> Aenean eu leo quam ornare curabitur blandit tempus </P>
+
+</div>
+</div>
+</div>
+
+<div class="col-sm-6  col-md-12 col-lg-6">
+    <div class="per-tect">
+            <img src="img/special.jpg" class=img-fluid>
+
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+<!-- <<<<<<<<<<<<<<<<<<<<< test>>>>>>>>>>>>>>>>>> -->
+
+
+<div class="container">
+<div class="row g-5">
+    <div class="col-md-6">
+    <h2 class="underline"> We are Phantom Healthcare </h2>
+<P class="pt-3"> We help organizations achieve their most ambitious goals and move with greater agility </P>
+
+<P> With our next-generation app platform, teams easily design and deploy flexible and engaging apps that power critical workflows and make valuable data actionable across the enterprise. </P>
+
+<div class="row">
+
+<div class="col-sm-6">
+
+
+<p>  <i class="fa fa-check"> </i> Aenean eu leo quam ornare curabitur blandit tempus </P>
+
+<p>  <i class="fa fa-check"> </i> Aenean eu leo quam ornare curabitur blandit tempus </P>
+
+</div>
+
+<div class="col-sm-6">
+
+
+<p>  <i class="fa fa-check"> </i> Aenean eu leo quam ornare curabitur blandit tempus </P>
+
+<p>  <i class="fa fa-check"> </i> Aenean eu leo quam ornare curabitur blandit tempus </P>
+
+</div>
+
+</div>
+</div>
+
+
+<div class="col-md-6 ">
+<div class="de-cock">
+<img class=" img-fluid" src="img/operation.jpg">
+
+</div>
+</div>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- <<<<<<<<<< organge>>>>>>>>>>>>> -->
+<div class="container-fluid mt-5 venusharma">
+<div class="container">
+<div class="row">
+    <div class="col-lg-6 mt-5">
+
+            <h2 class="uncerline1"> We are Phantom Healthcare </h2>
+<P> We help organizations achieve their most ambitious goals and move with greater agility </P> 
+ 
+<P> With our next-generation app platform, teams easily design and deploy flexible and engaging apps that power critical workflows and make valuable data actionable across the enterprise. </P>
+
+
+
+<div class="row">
+    <div class="col-sm-6">
+<P class="">  <i class="fa fa-check ved2"> </i>  Aenean eu leo quam ornare curabitur blandit tempus</P>
+<P class="">  <i class="fa fa-check ved2"> </i>  Aenean eu leo quam ornare curabitur blandit tempus</P>
+</div>
+<div class="col-sm-6">
+<P class="">  <i class="fa fa-check ved2"> </i>  Aenean eu leo quam ornare curabitur blandit tempus</P>
+<P class="">  <i class="fa fa-check ved2"> </i>  Aenean eu leo quam ornare curabitur blandit tempus</P>
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="de-cock1 p-5">
+<img class=" img-fluid" src="img/operation.jpg">
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+<!-- <<<<<<<<<<<<<<<<< action life>>>>>>>>>>>>>> -->
+
+
+    <!-- Footer Start -->
+    <?php include('fotter.php');?>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

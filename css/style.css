@@ -1,0 +1,1796 @@
+/********** Template CSS **********/
+:root {
+    --primary: #88B44E;
+    --secondary: #FB9F38;
+    --light: #F5F8F2;
+    --dark: #252C30;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 30px;
+    bottom: 30px;
+    z-index: 99;
+}
+
+.fw-medium {
+    font-weight: 600;
+}
+
+.fw-bold {
+    font-weight: 700;
+}
+
+.fw-black {
+    font-weight: 900;
+}
+
+
+/*** Spinner ***/
+/* #spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+#spinner.show {
+    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+} */
+
+
+/*** Button ***/
+.btn {
+    transition: .5s;
+    font-weight: 500;
+}
+
+.btn-primary,
+.btn-outline-primary:hover {
+    color: var(--light);
+}
+
+.btn-secondary,
+.btn-outline-secondary:hover {
+    color: var(--dark);
+}
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+
+
+
+
+
+.singal{
+    background-color: #88B44E;
+}
+
+
+.pickaoki{
+    color:green;
+}
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<< personal test>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+.phantoms1 {
+    margin-top: -2em;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  .first-innovation-singh {
+    /* border: 1px solid black; */
+    margin: 0.5em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px gray;
+    padding: 1em;
+  }
+  
+  /* .two-thing{
+  
+    margin-top: -1em;
+  }
+  
+  .four-thing{
+    
+    margin-top: -2.2em;
+  } */
+  
+  .counter-box span::after {
+    content: "+";
+  }
+  
+  .first-innovation-singh h5 {
+    margin-top: 0.5em;
+    font-weight: 600;
+  }
+  .first-innovation-singh p {
+    margin-top: -0.5em;
+    color: black;
+  }
+  .first-innovation-singh:hover {
+    background-color: aqua;
+    color: white;
+  }
+  
+  .why-style {
+    background-color: #f4f5f6;
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  
+  .first-innovation {
+    padding: 2em;
+  }
+  
+  .first-innovation span {
+    font-size: 15px;
+    color: black;
+    font-weight: 700;
+  }
+  
+  .first-innovation h3 {
+    font-size: 28px;
+    color: #0b3a6d;
+    font-weight: 800;
+  
+    margin-top: 0.2em;
+  }
+  
+  .first-innovation p {
+    color: black;
+    font-size: 15px;
+    margin-top: 1em;
+  }
+  
+  .whylife {
+    width: 80px;
+  }
+
+
+  .whylife1 {
+width: 60px;
+  }
+
+
+
+
+
+  .first-innovation-singh1{
+   
+    box-shadow: 0px 0px 5px 1px gray;
+    padding: 1em;
+    margin: 0.5em;
+    border-radius: 5px;
+
+
+  }
+
+
+  .first-innovation-singh1:hover{
+    color:white;
+    background-color: #88B44E;
+  }
+
+  .first-innovation-singh1:hover h5{
+    color:white;
+    background-color: #88B44E;
+  }
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<< personal test>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<<<<<<<<<<< again test>>>>>>>>>>>>>>> */
+.largestyle{
+    background-color: lightskyblue;
+}
+
+
+.powertext{
+    width: 30%;
+    height: 30%;
+}
+
+.arjun{
+    margin-top: 3em;
+    padding: 1em;
+}
+
+
+
+.recoding {
+padding: 0.3em;
+    border-radius:  50px;
+    font-size: 20px;
+    background-color: greenyellow;
+    color:white;
+}
+.recoding:hover{
+    color:red;
+    background-color: white;
+}
+
+
+.legalwork{
+    margin: 0.5em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 1px gray;
+    padding: 2em;
+}
+
+
+.legalwork:hover{
+ background-color: #88B44E;
+color:white;
+}
+
+.legalwork i{
+    font-size: 40px;
+}
+
+
+
+
+/* .legalwork h4:hover{
+    color: white;
+} */
+
+
+
+/* <<<<<<<<<<<<<<< dublicate footer>>>>>>>>>>>>> */
+
+
+
+
+
+
+
+/*** Header ***/
+.carousel-caption {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    background: rgba(136, 180, 78, .7);
+    z-index: 1;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 15%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 3.5rem;
+    background-color: var(--dark);
+    border: 15px solid var(--dark);
+}
+
+@media (max-width: 768px) {
+    #header-carousel .carousel-item {
+        position: relative;
+        min-height: 450px;
+    }
+    
+    #header-carousel .carousel-item img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.page-header {
+    background: linear-gradient(rgba(240, 248, 228, 0.7), rgba(136, 180, 78, .7)), url(../img/carousel-1.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--light);
+}
+
+.page-header .breadcrumb-item,
+.page-header .breadcrumb-item a {
+    font-size: 18px;
+    color: var(--light);
+}
+
+
+/*** Section Title ***/
+.section-title {
+    position: relative;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+}
+
+.section-title::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+
+    background: var(--primary);
+}
+
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: 28px;
+    height: 28px;
+    bottom: -13px;
+    left: calc(25% - 13px);
+    background: var(--dark);
+    border: 10px solid #FFFFFF;
+    border-radius: 28px;
+}
+
+.section-title.text-center::before {
+    left: 25%;
+}
+
+.section-title.text-center::after {
+    left: calc(50% - 13px);
+}
+
+
+
+
+
+.saju {
+    background-color: #88B44E;
+    color:white;
+  width: 60px;
+ height: 60px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1.4em;
+}
+
+
+/* <<<<<<<<<<<< test >>>>>>>>>>>>>> */
+.ravaaere{
+    text-align: center;
+    font-style: italic;
+}
+
+.ravaaere h6{ 
+    color:blue;
+    font-size: 25px;
+
+}
+
+
+.ravaaere h3{
+padding-top: 1em;
+}
+
+.ravaaere p{
+    padding-top: 1.5em;
+}
+
+.dikist {
+    padding-top: 3em;
+
+}  
+
+.dikist p{
+    line-height: 0.1px;
+
+}
+
+
+.dikist i{
+color:white;
+background-color: #88B44E;
+border-radius: 50%;
+padding: 0.5em;
+box-shadow: 1px 1px 6px 20px rgb(223, 221, 221);
+margin-bottom: 1em;
+}
+
+
+
+
+.rectatlge img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+
+    width: 150px;
+}
+
+
+
+.newButton {
+background-color: #0151ff;
+color:white;
+border-radius: 10px;
+padding: 8px 25px 8px 25px;
+text-align: center;
+display: inline-block;
+
+}
+
+
+.kiran{
+    box-shadow: 8px 10px 10px 2px gray;
+ padding-bottom: 30px;
+    
+}
+
+.sabaas{
+    background-color: rgb(87, 217, 250);
+
+}
+
+
+.vikso{
+    display: inline-block;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin-left: 35%;
+
+}
+
+ 
+    
+.khanaa a{
+    color:red;
+    border: red;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+
+.subjectl{
+    position: relative;
+    overflow: hidden;
+}
+
+
+.subjectl img{
+transition: transform 0.5s;
+
+}
+
+.subjectl:hover img{
+    transform:scale(1.2)
+}
+
+
+
+
+.picture2{
+    display: none;
+}
+
+
+
+.my-picture:hover .picture1{
+    display:none;
+}
+
+.my-picture:hover .picture2{
+    display:block;
+}
+
+
+/* <<<<<<<<<<<<<<<<< action title>>>>>>>>>>>>>>> */
+/*** Section Title ***/
+.action-title {
+    position: relative;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    
+}
+
+.action-title::before {
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background: var(--primary);
+}
+
+.action-title::after {
+    position: absolute;
+    content: "";
+    width: 28px;
+    height: 28px;
+    bottom: -13px;
+    left: calc(25% - 13px);
+    background: var(--dark);
+    border: 10px solid #FFFFFF;
+    border-radius: 28px;
+}
+
+.action-title.text-center::before {
+    left: 25%;
+}
+
+.action-title.text-center::after {
+    left: calc(50% - 13px);
+}
+
+
+
+
+
+
+
+
+/*** Products ***/
+.product {
+    background: linear-gradient(rgba(123, 53, 243, 0.1), rgba(247, 51, 17, 0.1)), url(../img/product-bg.png) left bottom no-repeat;
+   
+    /* background: linear-gradient( rgba(136, 180, 78, .1)), url(../img/product-bg.png) left bottom no-repeat; */
+
+
+    background-size: auto;
+}
+
+.product-carousel .owl-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.product-carousel .owl-nav .owl-prev,
+.product-carousel .owl-nav .owl-next {
+    margin: 0 10px;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: var(--primary);
+    border-radius: 55px;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .15);
+    font-size: 25px;
+    transition: .5s;
+}
+
+.product-carousel .owl-nav .owl-prev:hover,
+.product-carousel .owl-nav .owl-next:hover {
+    background: #FFFFFF;
+    color: var(--primary);
+}
+
+
+/*** About ***/
+
+.burger{
+    /* margin-top: 30%; */
+    position: relative;
+  
+   
+   margin-top: 20%;
+   margin-bottom: 20%;
+}
+
+.video {
+    background: linear-gradient(rgba(136, 180, 78, .85), rgba(136, 180, 78, .85)), url(../img/video-bg.jpg) center center no-repeat;
+    background-size: cover;
+
+    
+}
+
+
+
+.btn-play {
+    position:relative;
+    display: block;
+    box-sizing: content-box;
+    width: 10px;
+    height: 2px;
+    border-radius: 100%;
+    border: none;
+    outline: none !important;
+    /* padding: 5px 5px 5px 5px; */
+    background-color: red;
+
+}
+
+.btn-play:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 20%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: black;
+    border-radius: 100%;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+
+.btn-play:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 20%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: black;
+    border-radius: 100%;
+    transition: all 200ms;
+}
+
+ .btn-play span {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    width: 0;
+    height: 5px;
+    left: -1px;
+    top: 0px;
+    border-left: 10px solid var(--primary);
+    border-top: 10px solid transparent;
+    border-bottom: 15px solid transparent;
+
+
+} 
+
+@keyframes pulse-border {
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(2);
+        opacity: 0;
+    }
+}
+
+.modal-video .modal-dialog {
+    position: relative;
+    max-width: 800px;
+    margin: 60px auto 0 auto;
+}
+
+.modal-video .modal-body {
+    position: relative;
+    padding: 0px;
+}
+
+.modal-video .close {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 0px;
+    top: -30px;
+    z-index: 999;
+    font-size: 30px;
+    font-weight: normal;
+    color: #FFFFFF;
+    background: #000000;
+    opacity: 1;
+}
+
+
+/* <!-- <<<<<<<<<<<<<<<<<<<< test two column>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --> */
+
+.torido{
+    
+
+     background: linear-gradient(rgba(245, 125, 69, 0.7), rgba(83, 67, 235, 0.7)), url(../img/video-bg.jpg) center center no-repeat;
+   
+   
+     background-size: cover; 
+
+
+}
+
+.life-something{
+    font-size: 20px;
+    color:white;
+    font-style: italic;
+    margin-top: 1em;
+    margin-bottom:1em ;
+}
+
+
+.localsingh {
+ color:white;
+}
+
+.localsingh i{
+    color:#88B44E;
+    background-color: #FB9F38;
+    border-radius: 50px;
+    padding: 0.5em;
+
+}
+
+
+.trivdo{
+    color:black;
+}
+
+
+.trivdo i{
+    color: yellow;
+    background-color: #88B44E;
+    border-radius: 20px;
+    padding: 0.5em;
+
+}
+
+
+.sikahor {
+  
+    background: linear-gradient(rgba(245, 125, 69, 0.7), rgba(83, 67, 235, 0.7)), url(../img/images.jpg) center center no-repeat;
+   
+   
+    background-size: cover; 
+}
+
+
+.vishnoi {
+    background: linear-gradient(rgba(245, 125, 69, 0.7), rgba(83, 67, 235, 0.7)), url(../img/images.jpg) center center no-repeat;
+   
+   
+    background-size: cover; 
+}
+
+
+.rajis i{
+    color: green;
+    background-color: red;
+    border-radius: 20px;
+    padding: 0.5em;
+}
+
+
+
+.rajesh i{
+    background-color: #88B44E;
+    color: red;
+    font-size:20px;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+
+
+
+
+/* <!-- <<<<<<<<<<<<<<<<<<<< test two column>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> --> */
+
+/* <!-- <<<<<<<<<<<<<<<<<<<<< three column start>>>>>>>>>>>>>> --> */
+
+.power-full{
+    position: relative;
+max-width: 600px;
+
+
+}
+.gogal-verma {
+
+    text-align: center;
+    margin-top: 2em;
+    color: green;
+
+}
+
+
+
+
+.gagal-sherma{
+    
+    text-align: center;
+    margin-top: 1em;
+    font-size: 40px;
+   
+}
+
+
+.srivastva i{
+    background-color: #88B44E;
+    color:white;
+  width: 60px;
+ height: 60px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1.4em;
+}
+
+
+
+
+
+
+
+.power-full::before {
+    position: absolute;
+    content: "";
+    width: 150px;
+    height: 5px;
+    left: 0;
+    bottom: 0;
+    background: var(--primary);
+    border-radius: 2px;
+}
+
+
+.power-full.text-center::before {
+    left: 50%;
+    margin-left: -75px;
+}
+
+
+.power-full.section-title-sm::before {
+    width: 90px;
+    height: 3px;
+}
+
+
+.power-full::after {
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 5px;
+    bottom: 0px;
+    background: #FFFFFF;
+    -webkit-animation: section-title-run 5s infinite linear;
+    animation: section-title-run 5s infinite linear;
+}
+
+
+.power-full.section-title-sm::after {
+    width: 4px;
+    height: 3px;
+}
+
+
+.power-full.text-center::after {
+    -webkit-animation: section-title-run-center 5s infinite linear;
+    animation: section-title-run-center 5s infinite linear;
+}
+
+
+.power-full.section-title-sm::after {
+    -webkit-animation: section-title-run-sm 5s infinite linear;
+    animation: section-title-run-sm 5s infinite linear;
+}
+
+@-webkit-keyframes section-title-run {
+    0% {left: 0; } 50% { left : 145px; } 100% { left: 0; }
+}
+
+@-webkit-keyframes section-title-run-center {
+    0% { left: 50%; margin-left: -75px; } 50% { left : 50%; margin-left: 45px; } 100% { left: 50%; margin-left: -75px; }
+}
+
+@-webkit-keyframes section-title-run-sm {
+    0% {left: 0; } 50% { left : 85px; } 100% { left: 0; }
+}
+
+
+
+
+
+
+
+
+/* <!-- <<<<<<<<<<<<<<<<<<<<< three column end>>>>>>>>>>>>>> --> */
+
+
+
+/* <!-- <<<<<<<<<<<<<< two box container start >>>>>>>>>>>>>> --> */
+
+
+.check-lalg{
+    /* background-image: url("img/futture.jpg"); */
+
+    background:linear-gradient(rgba(105, 40, 228, 0.7), rgba(206, 65, 206, 0.7)), url(../img/future.jpg) center center no-repeat;
+    background-size: cover;
+    min-height: 600px;
+
+
+/* 
+    background: linear-gradient(rgba(136, 180, 78, .7), rgba(136, 180, 78, .7)), url(../img/carousel-1.jpg) center center no-repeat;
+    background-size: cover; */
+
+
+}
+
+.rajven{
+    margin-top: 6em;
+    font-size: 50px;
+}
+
+
+.cickaro{
+    position: absolute;
+    margin-top: 15em;
+    width: 500px;
+    border-radius: 10px;
+}
+
+
+.new-button{
+    color:black;
+
+    border-radius: 30px;
+    padding: 5px 30px 5px 30px;
+    background-color: none;
+    text-align: center;
+}
+
+.pandulam{
+    position: absolute;
+margin-top: 15em;
+margin-left: 10em;
+
+    width: 20%;
+    height: 40%;
+
+}
+
+img.pandulam{
+    animation: mover 1s infinite  alternate;
+}
+
+@keyframes  mover {
+ 
+        0% { transform: translateY(0); }
+        100% { transform: translateY(-50px); }
+    }
+
+
+
+/* <!-- <<<<<<<<<<<<<< two box container start >>>>>>>>>>>>>> --> */
+
+
+/* <!-- <<<<<<<<<<<<<<<<<<<<< perfect 2 box>>>>>>>>>>>>>> --> */
+
+
+.subjecing{
+    margin-top: 10em;
+    /* background: url(../img/future.jpg); */
+    background: linear-gradient(rgba(252, 145, 151, 0.7), rgba(136, 216, 248, 0.7)), url(../img/carousel-1.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+}
+
+
+.life-sinzg{
+    /* border: 1px solid black; */
+    padding: 30px;
+    margin: 1em;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 5px gray;
+}
+
+.life-sinzg:hover {
+    color:white;
+    background-color: green;
+}
+
+
+.life-sinzg:hover h2  {
+    color:white;
+    background-color: green;
+}
+
+
+.life-sinze:hover {
+    color:white;
+    background-color: green;
+}
+
+
+.life-sinze:hover h2 {
+    color:white;
+    background-color: green;
+}
+
+
+.life-sinze{
+    /* border: 1px solid black;  */
+    padding:30px;
+    margin: 1em;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 1px 1px 20px 20px gray;
+
+}
+
+
+
+/* <!-- <<<<<<<<<<<<<<<<<<< restuarant design>>>>>>>>>>>>>>>> --> */
+.sinaor{
+    background-color: #88B44E;
+    min-height: 600px;
+}
+
+.zero1{
+    height: 100%;
+    width: 100%;
+}
+
+.zero2{
+    height: 80%;
+    width: 90%;
+     margin-left: 2em;
+    margin-top: 1em; 
+} 
+
+.zero3{
+    height: 80%;
+    width: 60%;
+     margin-top: 2em; 
+}
+
+.zero4{
+    height: 100%;
+    width: 80%;
+     margin-top: 1em; 
+
+}
+
+.gandu{
+    margin-top: 5em;
+}
+
+.raju{
+    margin-bottom: 5em;
+}
+
+.sharma{
+    color:yellow;
+    font-size: 20px;
+}
+
+.sharma{
+    position: relative;
+}
+.sharma::before{
+    position: absolute;
+    content:"";
+background-color: red;
+    left:100px;
+    top:12px;
+    right: 5px;
+    height: 3px;
+    width: 30px;
+
+}
+
+
+.sharma1{
+    font-size: 35px;
+
+}
+
+.newactive {
+    font-size: 50px;
+    color:yellow;
+    
+}
+
+.newactive{
+    position: relative;
+    
+}
+.newactive::before{
+    position: absolute;
+    content:"";
+    height: 55px;
+    width: 8px;
+    top: 10px;
+    left: -18px;
+    right: 0px;
+    background-color: red;
+}
+
+
+
+
+.journey1{
+    font-size: 15px;
+
+ width: 50%;
+
+padding-left: 1em;
+margin-top: 1em;;
+
+}
+
+.tranjender{
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+
+
+.dexerwe{
+
+padding: 10px 50px 10px 50px;
+border-radius:  10px;
+font-size: 20px;
+background-color: orange;
+color:white;
+
+}
+
+.dexerwe:hover{
+    background-color: red;
+    color:white;
+}
+
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<< final test>>>>>>>>>>>>>>>>>>> */
+.rewnse{
+    width: 75%;
+}
+
+.vineusse{
+    width: 60%;
+    margin-left: 30%;
+    margin-top:-20%;
+}
+
+
+
+.devika{
+    width: 75%;
+}
+
+.apower{
+    width: 60%;
+    margin-top: -28%;
+    margin-left: 25%;
+}
+
+
+
+
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<< final test end>>>>>>>>>>>>>>>>>>> */
+
+/* <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 4 image test>>>>>>>>>>>>>>>>>>>>>>>>> --> */
+
+.new-section1{
+    width: 80%;
+    height: 40%;
+    margin-bottom: 1rem;
+}
+
+.new-section2{
+    width: 60%;
+    height: 40%;
+}
+
+.new-section3{
+    width: 50%;
+    height: 15%;
+    margin-bottom: 1rem;
+}
+
+.new-section4{
+    width: 80%;
+    height: 40%;
+}
+
+.new-section5{
+  width: 100%;
+    height: 60%;
+}
+
+.new-section6{
+    width: 100%;
+    height: 60%;
+}
+
+
+
+
+
+/* <<<<<<<<<<<<<<<< again life>>>>>>>>>> */
+
+
+.jackor{
+    background: linear-gradient(rgba(252, 145, 151, 0.7), rgba(136, 216, 248, 0.7)), url(../img/carousel-1.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+}
+
+.lifestyle1{
+    width: 65%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.lifestyle2{
+    width: 33%;
+    height: 50%;
+    border-radius: 30px;
+ margin-top: -15em;
+    padding: 1em;
+
+}
+
+.lifestyle3{
+    width: 22%;
+    height: 60%;
+    position: absolute;
+    margin-left: -19em;
+    border-radius: 30px;
+    margin-bottom: 2em;
+    margin-top: 14em;
+}
+
+
+.radhye p {
+   padding: 2em;
+
+}
+
+
+.rakesh-sharma{
+    position: relative;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+}
+
+.rakesh-sharma::before{
+    position: absolute;
+content:"";
+width: 100px;
+height: 2px;
+bottom: 0px;
+left: 0px;
+background: green;
+}
+
+.rakesh-sharma::after{
+    position: absolute;
+content:"";
+width: 100px;
+height: 2px;
+bottom: 0.1px;
+left: 110px;
+
+background: green;
+/* left: calc(25% - 13px); */
+
+    border-radius: 28px;
+
+}
+
+
+
+.rakesh-sharma.text-center::before {
+    left: 25%;
+}
+
+.rakesh-sharma.text-center::after {
+    left: calc(50% - 13px);
+}
+
+
+
+
+
+
+
+
+
+/* <<<<<<<<<<<<<< again life end>>>>>>>>>>>>> */
+
+
+.we-help-section {
+    padding: 7rem 0; }
+    .we-help-section .imgs-grid {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: (1fr)[27];
+      grid-template-columns: repeat(27, 1fr);
+      position: relative; }
+      .we-help-section .imgs-grid:before {
+        position: absolute;
+        content: "";
+        width: 255px;
+        height: 217px;
+        background-image: url("../images/dots-green.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        -webkit-transform: translate(-40%, -40%);
+        -ms-transform: translate(-40%, -40%);
+        transform: translate(-40%, -40%);
+        z-index: -1; }
+      .we-help-section .imgs-grid .grid {
+        position: relative; }
+        .we-help-section .imgs-grid .grid img {
+          border-radius: 20px;
+          max-width: 100%; }
+        .we-help-section .imgs-grid .grid.grid-1 {
+          -ms-grid-column: 1;
+          -ms-grid-column-span: 18;
+          grid-column: 1 / span 18;
+          -ms-grid-row: 1;
+          -ms-grid-row-span: 27;
+          grid-row: 1 / span 27; }
+        .we-help-section .imgs-grid .grid.grid-2 {
+          -ms-grid-column: 19;
+          -ms-grid-column-span: 27;
+          grid-column: 19 / span 27;
+          -ms-grid-row: 1;
+          -ms-grid-row-span: 5;
+          grid-row: 1 / span 5;
+          padding-left: 20px; }
+        .we-help-section .imgs-grid .grid.grid-3 {
+          -ms-grid-column: 14;
+          -ms-grid-column-span: 16;
+          grid-column: 14 / span 16;
+          -ms-grid-row: 6;
+          -ms-grid-row-span: 27;
+          grid-row: 6 / span 27;
+          padding-top: 20px; }
+  
+  .custom-list {
+    width: 100%; }
+    .custom-list li {
+      display: inline-block;
+      width: calc(50% - 20px);
+      margin-bottom: 12px;
+      line-height: 1.5;
+      position: relative;
+      padding-left: 20px; }
+      .custom-list li:before {
+        content: "";
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        border: 2px solid #3b5d50;
+        position: absolute;
+        left: 0;
+        top: 8px; }
+  
+
+/* <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 4 image test end>>>>>>>>>>>>>>>>>>>>>>>>> --> */
+
+
+
+
+
+
+/*** Store ***/
+.store-item .store-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(138, 180, 78, .3);
+    opacity: 0;
+    transition: .5s;
+}
+
+.store-item:hover .store-overlay {
+    opacity: 1;
+}
+
+
+/*** Contact ***/
+.contact .btn-square {
+    width: 100px;
+    height: 100px;
+    border: 20px solid var(--light);
+    background: var(--primary);
+    border-radius: 50px;
+}
+
+
+/*** Testimonial ***/
+.testimonial {
+    background: linear-gradient(rgba(136, 180, 78, .85), rgba(136, 180, 78, .85)), url(../img/testimonial-bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.testimonial-item {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: center;
+    background: #FFFFFF;
+    border: 30px solid var(--primary);
+}
+
+.testimonial-item img {
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 60px;
+}
+
+.testimonial-carousel .owl-dots {
+    margin-top: 35px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.testimonial-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    background: var(--primary);
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-dot.active {
+    width: 30px;
+    background: var(--dark);
+}
+
+
+/*** Footer ***/
+.footer {
+    color: #B0B9AE;
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #B0B9AE;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: var(--primary);
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    color: var(--light);
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.copyright {
+    color: #B0B9AE;
+}
+
+.copyright {
+    background: #252525;
+}
+
+.copyright a:hover {
+    color: #FFFFFF !important;
+}
+
+
+
+/* <<<<<<<<<<<<<test again">>>>>>>>> */
+
+.ramesh{
+    background-color: green;
+}
+
+/* <!-- <<<<<<<<<<<< "four box">>>>>>>>>>>>>>>> --> */
+
+.resed{
+background-color: rgb(9, 255, 0);
+}
+
+.dianko{
+
+    box-shadow: 0px 0px 5px 1px gray;
+margin: 0.5em;
+    padding: 2em;
+border-radius: 10px;
+transition: all 0.3s ease;
+
+    
+}
+
+.dianko i{
+    font-size: 30px;
+}
+
+.dianko:hover {
+background-color: rgb(250, 0, 0);
+color:white;
+transform: translateY(20px);
+
+
+}
+
+
+.dianko:hover h2{
+    background-color: rgb(250, 0, 0);
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+.chali{
+    margin-top: 2em;
+}
+
+
+.rajeshkumar{
+
+    font-size: 25px;
+    font-weight: 1000;
+    line-height: 1.2em;
+    font-style: italic;}
+
+
+    .redbus  {
+   
+        box-shadow: 1px 1px 3px 3px grey;
+        border-radius: 30px;
+        padding: 10px 40px 10px 40px;
+        color:black;
+        background-color: red;
+        font-size: 20px;
+        font-weight: 500;
+        
+    }
+
+
+    .redbus:hover{
+        background-color: orange;
+        color: white;
+        
+    }
+
+
+
+
+    
+    .per-tect{
+        overflow: hidden;
+        position: relative;
+    }
+
+    .per-tect img {
+        transition: transform 0.5s;
+      }
+  
+      .per-tect:hover img {
+        transform: scale(1.2); /* Zoom in effect */
+      }
+
+
+
+      .underline {
+        border-bottom: 2px solid #007bff; /* Change color as needed */
+        padding-bottom: 5px; /* Adjust spacing as needed */
+        display: inline-block;}
+
+
+
+        .uncerline1 {
+border-left: 2px solid green;
+padding-left: 5px;
+display: inline-block;}
+
+
+        
+
+
+      
+
+            .vksars::after{
+                display: block;
+                content: '';
+                margin-top: 10px;
+                border-bottom: 3px solid #000;
+                width: 55%;
+ 
+            }
+
+
+            .de-cock{
+
+                overflow: hidden;
+                position: relative;
+            }
+
+            .de-cock img{
+                transition: transform 0.5s;
+            }
+
+            .de-cock:hover img {
+                transform: scale(1.2); /* Zoom in effect */
+              }
+
+
+
+              .venusharma{
+                background: linear-gradient(rgba(112, 48, 48, 0.397),rgba(26, 136, 50, 0.452)), url(../img/carousel-2.jpg); 
+                background-size: cover;
+              }
+
+
+              .de-cock1{
+                position:relative;
+                overflow: hidden;
+              }
+
+              .de-cock1 img{
+            
+                transition: tranasform 0.9s;
+              }
+
+
+              .de-cock1:hover img{
+            
+               transform: scale(1.2);
+              }
+
+
+
+
+              .ved2  {
+                color: red;
+            background-color: gold;
+                padding: 10px;
+                border-radius: 50px;
+                margin: 0.5px;
+
+              }
+
+
+
+              .rudark{
+                background-color: #000000;
+              }
+
+
+              .venaror1{
+                color:#007bff;
+            
+              }
+
+
+              .venaror{
+                color:white;
+              }
+
+            
+
+
+              .lahori i{
+                color: #88B44E;
+              }
+
+
+           
+
+              .squrlink i{
+                color:white;
+                background-color: #88B44E;;
+                padding: 0.5em;
+                margin: 0.5em;
+border-radius: 50%;
+              }
+
+
+              .tiacho {
+             
+           
+              }
+
+
+              .tiacho a{
+                color:white;
+              }
+
+              .tiacho i{
+                color: #88B44E;
+             
+              }
+
+              .rani{
+                color: white;
+       
+              }
+
+
+
+
+
+
+              .rakeshsh {
+position: relative;
+overflow: hidden;
+              }
+
+              
+              .rakeshsh  img{
+         transition: transform 0.5s;
+                              }
+                
+                                        
+              .rakeshsh:hover img{
+                transform: scale(1.5);
+              }
+                       
+
+
+
+              .nykon  {
+                font-weight: 500;
+                font-size: 20px;
+              }
+       
